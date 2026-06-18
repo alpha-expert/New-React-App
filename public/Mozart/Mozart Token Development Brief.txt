@@ -1,0 +1,300 @@
+♬
+PROJECT BRIEF
+MOZART TOKEN
+Smart Contract Developer Engagement
+Blockchain: Ethereum / Polygon
+Token Standard: ERC-20
+Engagement Type: Contract-Based
+Austria · 2025
+♩
+
+CONTENTS
+1. Project Overview
+   1.1 Vision & Narrative
+   1.2 Why Mozart
+2. Technical Requirements
+   2.1 Blockchain & Standards
+   2.2 Smart Contract Specifications
+   2.3 Security & Audit Requirements
+3. Tokenomics
+4. Development Roadmap
+5. Scope of Engagement
+   5.1 Deliverables
+   5.2 Timeline
+6. Compensation & Terms
+7. Next Steps
+
+================================================================================
+1. PROJECT OVERVIEW
+================================================================================
+
+TOKEN NAME:        Mozart Token
+TICKER SYMBOL:     MOZART
+BLOCKCHAIN:        Ethereum / Polygon
+STANDARD:          ERC-20
+TOTAL SUPPLY:      1,000,000,000 MOZART
+PROJECT ORIGIN:    Austria
+
+1.1 Vision & Narrative
+------------------------
+Mozart Token is a cultural-tech initiative that preserves and celebrates Austria's
+musical legacy on the blockchain. Our mission is to bridge classical heritage with
+decentralized technology, creating a token ecosystem that supports music education,
+digital art, and community-driven cultural preservation.
+
+The project is built on a simple yet powerful narrative: "Preserving Austria's
+musical legacy on-chain." We are not building a speculative meme token. Mozart Token
+is designed as a utility-driven cultural asset with real-world applications in music
+NFTs, event ticketing, education grants, and DAO governance.
+
+Core Theme: Culture × Blockchain × Community × Education
+
+1.2 Why Mozart
+--------------
+Wolfgang Amadeus Mozart (1756–1791) is the most famous Austrian musician in history
+and a universal symbol of genius, culture, and timeless artistry. As Mozart died in
+1791, his name and likeness are in the public domain, making this branding legally
+safe for commercial use without licensing restrictions.
+
+Mozart represents values that align perfectly with blockchain ethos:
+  • Decentralization of art (his music belongs to the world)
+  • Timelessness (his work transcends eras)
+  • Global recognition (universal brand awareness)
+
+This is a legitimate cultural project, not a hype-driven scheme.
+
+================================================================================
+2. TECHNICAL REQUIREMENTS
+================================================================================
+
+2.1 Blockchain & Standards
+----------------------------
+After careful evaluation of cost, scalability, and institutional credibility, we have
+selected the following technical stack:
+
++----------------+--------------------+-------------------------------------------+
+| Component      | Selection          | Rationale                                 |
++----------------+--------------------+-------------------------------------------+
+| Primary Chain  | Ethereum (ERC-20)  | Prestige, institutional trust, widest CEX |
+|                |                    | support                                   |
+| Secondary Chain| Polygon PoS        | Low gas fees, retail accessibility, fast  |
+|                |                    | finality                                  |
+| Token Standard | ERC-20             | Universal compatibility, proven security  |
+| Contract Lang. | Solidity (^0.8.x)  | Industry standard, extensive tooling      |
+| Libraries      | OpenZeppelin       | Battle-tested, audited, community standard|
+|                | Contracts          |                                           |
++----------------+--------------------+-------------------------------------------+
+
+2.2 Smart Contract Specifications
+---------------------------------
+We require a production-ready ERC-20 smart contract with the following features:
+
+Core Contract Features
+  • Fixed Total Supply: 1,000,000,000 MOZART minted at deployment
+  • No Minting Function: Supply is immutable after launch
+  • Burn Mechanism: Users can burn tokens permanently (deflationary feature)
+  • Pausable: Emergency pause functionality (multi-sig controlled)
+  • Blacklist: Ability to restrict malicious addresses
+  • Ownable / Access Control: Role-based permission system
+  • Fee System: Configurable transaction fee (max 3%) for treasury
+
+Vesting & Allocation Contracts
+  • Team Vesting: 24-month linear vesting with 6-month cliff
+  • Marketing Vesting: 12-month linear vesting
+  • Development Vesting: 18-month linear vesting
+  • Liquidity Lock: Minimum 12-month liquidity lock mechanism
+
+The vesting contracts must support:
+  • Multiple beneficiary addresses per allocation category
+  • Revocable grants (for team/marketing allocations)
+  • On-chain claim functionality for beneficiaries
+  • Real-time view of vested vs. unvested amounts
+
+2.3 Security & Audit Requirements
+-----------------------------------
+Security is our highest priority. The following standards must be met:
+
+  • ReentrancyGuard: All external calls protected against reentrancy attacks
+  • SafeMath: Overflow/underflow protection (Solidity 0.8.x built-in + explicit checks)
+  • Slither Analysis: All Slither detectors must pass (no high/medium severity issues)
+  • Unit Test Coverage: Minimum 95% code coverage using Hardhat + Ethers.js
+  • Formal Audit: Contract must pass review by a reputable audit firm (CertiK, Hacken,
+    or equivalent)
+
+Deployment Configuration
+  • Deployment via multi-sig wallet (Gnosis Safe) — 3-of-5 signers
+  • Verified and published source code on Etherscan / Polygonscan
+  • Mainnet deployment only after successful testnet deployment + 2-week observation
+
+================================================================================
+3. TOKENOMICS
+================================================================================
+
+The token distribution is designed to prioritize community ownership and long-term
+sustainability. No allocation exceeds practical needs, and all insider allocations
+carry strict vesting terms.
+
++---------------------------+------------+-------------+---------------------------+
+| Allocation                | Percentage | Amount      | Vesting / Lock            |
++---------------------------+------------+-------------+---------------------------+
+| Community & Rewards       | 40%        | 400,000,000 | Released over 24 months |
+| Ecosystem & Partnerships  | 20%        | 200,000,000 | 12-month vesting          |
+| Marketing                 | 15%        | 150,000,000 | 12-month vesting          |
+| Development               | 10%        | 100,000,000 | 18-month vesting          |
+| Liquidity                 | 10%        | 100,000,000 | Locked 12 months          |
+| Team                      | 5%         | 50,000,000  | 24-month vesting, 6mo     |
+|                           |            |             | cliff                     |
++---------------------------+------------+-------------+---------------------------+
+
+Tokenomics Principles
+  • Community-first: 40% to community rewards — the largest single allocation
+  • Low team allocation: Only 5% to team, demonstrating commitment to decentralization
+  • Long-term alignment: All insider allocations have 12–24 month vesting schedules
+  • Transparent: All vesting contracts are on-chain and publicly verifiable
+
+================================================================================
+4. DEVELOPMENT ROADMAP
+================================================================================
+
+The project follows a four-phase roadmap, with the smart contract development being
+the critical foundation for all subsequent phases.
+
+Phase 1 — Foundation (Months 1–2)
+  • Smart contract development and audit
+  • Website and whitepaper launch
+  • Community building on Telegram and X (Twitter)
+  • Brand identity finalization
+
+Phase 2 — Expansion (Months 3–4)
+  • DEX listing (Uniswap / QuickSwap)
+  • Initial NFT collection launch
+  • Influencer partnerships
+  • CoinMarketCap and CoinGecko applications
+
+Phase 3 — Utility (Months 5–8)
+  • DAO governance launch
+  • Music education grant program
+  • Cultural organization partnerships
+  • Music NFT marketplace beta
+
+Phase 4 — Global Reach (Months 9–12)
+  • CEX listings
+  • Real-world music event ticketing
+  • Nonprofit foundation establishment
+  • Cross-chain bridge evaluation
+
+Smart Contract Developer's Role
+Your work on Phase 1 is the foundation upon which Phases 2–4 are built. A secure,
+audited, and well-documented smart contract is the non-negotiable prerequisite for
+exchange listings, investor confidence, and community trust. This is mission-critical
+work.
+
+================================================================================
+5. SCOPE OF ENGAGEMENT
+================================================================================
+
+5.1 Deliverables
+----------------
+We expect the following deliverables from the smart contract developer:
+
++----+---------------------------+--------------------------------------------------+
+| #  | Deliverable               | Description                                      |
++----+---------------------------+--------------------------------------------------+
+| 1  | ERC-20 Token Contract     | Production-ready MOZART token with all specified   |
+|    |                           | features                                         |
+| 2  | Vesting Contracts         | 4 separate vesting contracts (Team, Marketing,   |
+|    |                           | Development, Ecosystem)                          |
+| 3  | Liquidity Lock Contract   | Time-locked liquidity mechanism with emergency   |
+|    |                           | functions                                        |
+| 4  | Test Suite                | Comprehensive unit tests with >95% code coverage |
+| 5  | Deployment Scripts        | Hardhat scripts for testnet and mainnet deployment|
+| 6  | Technical Documentation   | Contract architecture docs, integration guide,   |
+|    |                           | NatSpec comments                                 |
+| 7  | Audit Support             | Support during external audit process (fix       |
+|    |                           | issues, explain design)                          |
++----+---------------------------+--------------------------------------------------+
+
+5.2 Development Timeline
+------------------------
+
++----------------------+------------+-------------------------------------------+
+| Milestone            | Duration   | Details                                   |
++----------------------+------------+-------------------------------------------+
+| Contract Development | Weeks 1–3  | ERC-20 + Vesting + Liquidity Lock contracts|
+| Internal Testing     | Week 4     | Unit tests, integration tests, Slither    |
+|                      |            | analysis                                  |
+| Testnet Deployment   | Week 5     | Deploy to Sepolia / Mumbai, public testing|
+| External Audit       | Weeks 6–7  | Audit firm review + issue remediation     |
+| Mainnet Deployment   | Week 8     | Final deployment + verification             |
++----------------------+------------+-------------------------------------------+
+
+Total estimated engagement: 8 weeks from kickoff to mainnet deployment.
+
+================================================================================
+6. COMPENSATION & TERMS
+================================================================================
+
+We believe in fair compensation for exceptional work. Our offer is competitive and
+includes both immediate payment and long-term alignment with the project.
+
+6.1 Payment Structure
+---------------------
+
++----------------+--------------------------------+--------------------------------+
+| Component      | Amount                         | Terms                          |
++----------------+--------------------------------+--------------------------------+
+| Base Fee       | USD 8,000–15,000               | Negotiable based on experience.|
+|                |                                | Paid in 3 milestones.          |
+| Token Grant    | 1–2% of Supply                 | 10,000,000–20,000,000 MOZART,  |
+|                |                                | 12-month vesting               |
+| Bonus          | Up to 20% of Base              | For early delivery, audit pass |
+|                |                                | with zero critical issues      |
++----------------+--------------------------------+--------------------------------+
+
+6.2 Milestone Payments
+----------------------
+  • Milestone 1 (30%): Contract completion + internal test pass
+  • Milestone 2 (40%): Successful testnet deployment + documentation delivery
+  • Milestone 3 (30%): Mainnet deployment + audit remediation complete
+
+6.3 Additional Terms
+--------------------
+  • IP Assignment: All code and documentation become project property upon payment
+  • Confidentiality: NDA required — tokenomics and launch strategy are sensitive
+  • Ongoing Support: 30-day bug-fix support included after mainnet launch
+  • Extension Option: Priority right to negotiate Phase 3 DAO governance contract
+
+Why This Matters
+You are not just writing code — you are building the foundational infrastructure of a
+project that aims to bring classical culture onto the blockchain. Your work will be
+publicly verified, audited, and used by thousands of holders. This is a meaningful
+addition to any developer's portfolio.
+
+================================================================================
+7. NEXT STEPS
+================================================================================
+
+If this project excites you, here is how we move forward:
+
+  1. Initial Call: 30-minute video call to discuss the project, your experience,
+     and answer any questions.
+  2. Technical Assessment: Brief review of your past work — GitHub repos, deployed
+     contracts, audit reports.
+  3. Offer & Agreement: Formal engagement letter with payment terms and deliverables.
+  4. Kickoff: Access to shared workspace, spec finalization, development begins.
+
+Ready to Build Something Timeless?
+We are looking for a smart contract developer who takes security seriously, writes
+clean and documented code, and wants to be part of a culturally significant blockchain
+project. If that is you, we would love to hear from you.
+
+REPLY ON LINKEDIN TO CONNECT
+
+================================================================================
+
+This document is confidential and intended solely for the recipient. Mozart Token
+is an independent cultural project and is not affiliated with any government institution.
+All references to Mozart are to the historical public-domain figure Wolfgang Amadeus
+Mozart (1756–1791).
+
+© 2025 Mozart Token Project
